@@ -1,6 +1,6 @@
 var User = require('../models/user');
 var jwt = require('jsonwebtoken');
-var bcrpyt = require('bcrpytjs');
+var bcrpyt = require('bcryptjs');
 var config = require('../config')
 
 exports.user_register = function(req, res) {
