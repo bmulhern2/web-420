@@ -22,6 +22,7 @@ var app = express();
 
 mongoose.Promise = require('bluebird');
 mongoose.connect('mongodb+srv://bmulhern2:Bmole22%21%21@cluster0-eopst.mongodb.net/test?retryWrites=true&w=majority', {
+  useNewUrlParser: true,
   promiseLibrary: require('bluebird')
 }).then(() => console.log('connection successful'))
 .catch((err) => console.error(err));
