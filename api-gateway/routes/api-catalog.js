@@ -1,3 +1,11 @@
+/*
+Title: Assignment 6.3
+Author: Professor Krasso && Express Generator,
+Date: 12 June 2020,
+Modified By: Brendan Mulhern,
+Description: An API with the express generator
+*/
+
 var express = require('express');
 
 var router = express.Router();

@@ -1,3 +1,10 @@
+/*
+Title: Assignment 6.3
+Author: Professor Krasso && Express Generator,
+Date: 12 June 2020,
+Modified By: Brendan Mulhern,
+Description: An API with the express generator
+*/
 var User = require('../models/user');
 var jwt = require('jsonwebtoken');
 var bcrpyt = require('bcryptjs');

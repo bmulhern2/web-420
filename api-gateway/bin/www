@@ -1,4 +1,12 @@
-#!/usr/bin/env node
+/*
+Title: Assignment 6.3
+Author: Professor Krasso && Express Generator,
+Date: 12 June 2020,
+Modified By: Brendan Mulhern,
+Description: An API with the express generator
+*/
+
+//#!/usr/bin/env node
 
 /**
  * Module dependencies.

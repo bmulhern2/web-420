@@ -1,12 +1,10 @@
 /*
-Title: Assignment 2,3,
+Title: Assignment 6.3
 Author: Professor Krasso && Express Generator,
-Date: 9 May 2020,
+Date: 12 June 2020,
 Modified By: Brendan Mulhern,
 Description: An API with the express generator
 */
-
-
 
 var createError = require('http-errors');
 var express = require('express');
