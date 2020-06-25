@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "devstart": "nodemon ./bin/www",
-    "start": "node ./bin/www"
+    "devstart": "npm i && node ./bin/www",
+    "start": "npm i && node ./bin/www"
+  },
+  "engine": {
+    "node": "v12.16.3"
   },
   "dependencies": {
     "basic-auth": "^2.0.1",
@@ -16,10 +19,8 @@
     "express-basic-auth": "^1.2.0",
     "http-errors": "~1.6.3",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.19",
     "morgan": "~1.9.1",
     "setprototypeof": "^1.2.0"
-  },
-  "devDependencies": {
-    "mongoose": "^5.9.11"
   }
 }
